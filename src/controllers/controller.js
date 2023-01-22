@@ -47,11 +47,10 @@ exports.createUrl = async function (req, res) {
         let urlcode = shortid.generate(reqLongUrl).toLowerCase();
         data.shortUrl = "http://localhost:3000/"+ urlcode
         data.urlCode = urlcode;
-
         const urlCreated = await urlModel.create(data);
         const { longUrl, shortUrl, urlCode } = urlCreated;
         await SET_ASYNC(`${urlCode}`,3600,JSON.stringify(urlCreated))
-
+        
         res.status(201).send({status: true,data: { longUrl, shortUrl, urlCode },});
     } catch (error) {
         res.status(500).send({ status: false, message: error.message });

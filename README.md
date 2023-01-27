@@ -2,7 +2,7 @@
 
 ## Scalable URL Shortner Project Requirement
 
-## Phase I![Picsart_22-01-30_14-08-20-267](https://user-images.githubusercontent.com/107568910/215030189-c6890a7e-7f78-4037-8c9d-01b1b202b8f7.jpg)
+## Phase I
 
 
 ## Overview

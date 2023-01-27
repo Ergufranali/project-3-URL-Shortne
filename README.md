@@ -2,7 +2,8 @@
 
 ## Scalable URL Shortner Project Requirement
 
-## Phase I
+## Phase I![Picsart_22-01-30_14-08-20-267](https://user-images.githubusercontent.com/107568910/215030189-c6890a7e-7f78-4037-8c9d-01b1b202b8f7.jpg)
+
 
 ## Overview
 URL shortening is used to create shorter aliases for long URLs. We call these shortened aliases “short links.” Users are redirected to the original URL when they hit these short links. Short links save a lot of space when displayed, printed, messaged, or tweeted. Additionally, users are less likely to mistype shorter URLs.
